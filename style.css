@@ -23,7 +23,7 @@ body{
 .left{
     height: 100%;
     width:30vw;
-    background-image: url("./image/leftimage.jpg");
+    background-image: url("leftimage.jpg");
     background-size:100%;
     
 }
