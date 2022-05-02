@@ -1,0 +1,139 @@
+
+html{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    height: 100%;
+    width: 80vw;
+    display: flex;
+    background-color: rgb(40, 38, 66);
+}
+
+.right{
+    height: 100%;
+    width: 70vw;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+}
+
+.left{
+    height: 100%;
+    width:30vw;
+    background-image: url("/image/leftimage.jpg");
+    background-size:100%;
+    
+}
+
+.top, .bottom, .middle{
+    height: calc(100vh/3);
+}
+
+.top p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.top{
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    align-items: flex-end;
+    background-color: #f9fafb;
+}
+
+
+
+.logo{
+    position: sticky;
+    height: calc(50vh/3);
+    top: calc(30vh/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    
+    
+}
+
+.logo>img{
+    width:fit-content;
+    height: 10vh;
+    width: 50%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(249deg) brightness(104%) contrast(103%)
+    
+}
+
+.middle{
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 15px grey;
+    
+
+}
+.input{
+    padding-left: 10px;
+    width: calc(100%/3);
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.input.even{
+    flex-grow: 1;
+}
+
+input{
+    
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #24313d;
+}
+
+.text{
+    width:50%
+}
+
+input:hover{
+    border-radius: 5px;
+    border-color: rgb(55, 124, 189);
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    
+    
+    color: rgb(85, 123, 148);
+}
+
+a:visited{
+    color: rgb(120, 85, 148);
+}
+
+.create>input{
+    background-color:rgb(87, 103, 173) ;
+    color:#f9fafb;
+    font-weight: bold;
+    height: 35px;
+}
